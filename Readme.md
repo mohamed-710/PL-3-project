@@ -9,7 +9,7 @@ This project is a Windows Forms-based quiz application built using F#. The appli
 - Submit the quiz and view their final score.
 - Save their results in a file.
 
-## Features
+### Features
 
 1. **User Login:**
 
@@ -36,19 +36,19 @@ This project is a Windows Forms-based quiz application built using F#. The appli
 6. **Results Storage:**
    - Saves user results to a text file for record-keeping.
 
-## How to Run
+### How to Run
 
 1. Clone the repository or download the source code.
 2. Open the project in an F#-compatible IDE like Visual Studio or Rider.
 3. Build and run the project.
 4. Provide a valid Name and ID to start the quiz.
 
-## Dependencies
+### Dependencies
 
 - .NET Framework (Windows Forms)
 - F#
 
-## Results Storage
+### Results Storage
 
 User results are stored in the `Results` directory as a text file. Each entry includes:
 
