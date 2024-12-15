@@ -1,6 +1,6 @@
 # Quiz Application
 
-This project is a Windows Forms-based quiz application built using F#. The application allows users to:
+This  project is a Windows Forms-based quiz application built using F#. The application allows users to:
 
 - Login with their Name and ID.
 - Attempt multiple-choice and written questions.
