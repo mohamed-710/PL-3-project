@@ -36,3 +36,5 @@ D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.Up2Date
 D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.exe
 D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.pdb
 D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.sourcelink.json
+C:\Users\user\Desktop\Quiz9\PL-3-project\obj\Debug\net481\QuizApp.exe
+C:\Users\user\Desktop\Quiz9\PL-3-project\obj\Debug\net481\QuizApp.pdb
