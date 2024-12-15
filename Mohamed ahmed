@@ -1,0 +1,59 @@
+let createQuizForm (userInfo: UserInfo) (questions: Map<int, Question>) =
+    let form = new Form(Text = sprintf "Quiz - %s" userInfo.Name, Size = Size(500, 500), StartPosition = FormStartPosition.CenterScreen)
+
+    let mutable currentState = initialState
+
+    let questionNumberLabel = new Label(AutoSize = true, Location = Point(350, 10), Font = new Font("Arial", 10.0f, FontStyle.Regular), ForeColor = Color.DarkGray)
+    let questionLabel = new Label(Location = Point(20, 50), AutoSize = true, Font = new Font("Arial", 12.0f))
+    let optionsPanel = new FlowLayoutPanel(Location = Point(20, 100), Size = Size(460, 100),FlowDirection=FlowDirection.TopDown)
+    let answerTextBox = new TextBox(Location = Point(20, 220), Size = Size(200, 30))
+    let nextButton = new Button(Text = "Next", Location = Point(250, 220), BackColor = Color.LightBlue)
+    let backButton = new Button(Text = "Back", Location = Point(340, 220), BackColor = Color.LightGray)
+    let finishButton = new Button(Text = "Finish", Location = Point(430, 220), BackColor = Color.LightGreen)
+
+    
+    let timerLabel = new Label(Text = "Time Left: 5:00", Location = Point(20, 10), AutoSize = true, Font = new Font("Arial", 10.0f, FontStyle.Regular), ForeColor = Color.DarkRed)
+
+    
+    let timer = new Timer(Interval = 1000)  
+    timer.Start()
+
+    
+    timer.Tick.Add(fun _ -> 
+        if currentState.TimeLeft > 0 then
+            currentState <- { currentState with TimeLeft = currentState.TimeLeft - 1 }
+            let minutes = currentState.TimeLeft / 60
+            let seconds = currentState.TimeLeft % 60
+            timerLabel.Text <- sprintf "Time Left: %02d:%02d" minutes seconds
+        else
+            timer.Stop()
+            MessageBox.Show("Time's up!") |> ignore
+            form.Close()
+    )
+
+    let displayQuestion index =
+        if questions.ContainsKey(index) then
+            let question = questions.[index]
+            questionNumberLabel.Text <- sprintf "Question %d of %d" (index + 1) questions.Count
+            questionLabel.Text <- sprintf "%s (Score: %d)" question.Text question.Score
+            optionsPanel.Controls.Clear()
+
+            match question.QuestionType with
+            | "MultipleChoice" -> 
+                answerTextBox.Visible <- false
+                question.Options
+                |> Option.iter (fun options -> 
+                    options |> List.iter (fun option -> 
+                        let radioButton = new RadioButton(Text = option, AutoSize = true)
+                        optionsPanel.Controls.Add(radioButton)))
+            | "Written" -> answerTextBox.Visible <- true
+            | _ -> answerTextBox.Visible <- false
+
+
+        let resultMessage = generateQuizResult userInfo currentState.UserAnswers
+        MessageBox.Show(resultMessage) |> ignore
+        form.Close())
+
+    form.Controls.AddRange([| questionNumberLabel; questionLabel; optionsPanel; answerTextBox; nextButton; backButton; finishButton; timerLabel |])
+    displayQuestion currentState.CurrentIndex
+    form.ShowDialog() |> ignore
