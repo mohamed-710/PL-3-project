@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	  <TargetFramework>net481</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <BaseOutputPath>D:\Level 4 is-term\Quiz final version</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Reactive" Version="6.0.1" />
+	</ItemGroup>
+
+</Project>

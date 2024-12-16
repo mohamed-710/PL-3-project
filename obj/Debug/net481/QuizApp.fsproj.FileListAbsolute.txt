@@ -1,0 +1,40 @@
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\QuizApp.exe.config
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\QuizApp.exe
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\QuizApp.pdb
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\FSharp.Core.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\System.Reactive.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\System.Runtime.CompilerServices.Unsafe.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\System.Threading.Tasks.Extensions.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\cs\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\de\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\es\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\fr\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\it\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\ja\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\ko\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\pl\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\pt-BR\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\ru\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\tr\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\zh-Hans\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\bin\Debug\net481\zh-Hant\FSharp.Core.resources.dll
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.AssemblyReference.cache
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.AssemblyInfoInputs.cache
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.AssemblyInfo.fs
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.CoreCompileInputs.cache
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.Up2Date
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.exe
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net481\QuizApp.pdb
+D:\Level 4 is-term\Quiz final version\Debug\net481\QuizApp.exe.config
+D:\Level 4 is-term\Quiz final version\Debug\net481\QuizApp.exe
+D:\Level 4 is-term\Quiz final version\Debug\net481\QuizApp.pdb
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.AssemblyReference.cache
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.AssemblyInfoInputs.cache
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.AssemblyInfo.fs
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.CoreCompileInputs.cache
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.fsproj.Up2Date
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.exe
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.pdb
+D:\Level 4 is-term\Pl3\QuizApp\QuizApp\obj\Debug\net481\QuizApp.sourcelink.json
+C:\Users\user\Desktop\Quiz9\PL-3-project\obj\Debug\net481\QuizApp.exe
+C:\Users\user\Desktop\Quiz9\PL-3-project\obj\Debug\net481\QuizApp.pdb

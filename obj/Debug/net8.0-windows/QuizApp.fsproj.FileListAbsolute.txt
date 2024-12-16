@@ -1,0 +1,4 @@
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net8.0-windows\QuizApp.fsproj.AssemblyReference.cache
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net8.0-windows\QuizApp.AssemblyInfoInputs.cache
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net8.0-windows\QuizApp.AssemblyInfo.fs
+D:\Level 4 is-term\QuizApp\QuizApp\obj\Debug\net8.0-windows\QuizApp.fsproj.CoreCompileInputs.cache
